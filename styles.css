@@ -1,0 +1,171 @@
+nav{
+   
+    background:rgb(133, 0, 0);
+    display:flex;
+    position: sticky; 
+    align-items: center;
+    justify-content: flex-end;
+    top: 0px;
+    /* box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4); */
+    z-index: 10;
+    width: 100%;
+    top: 0;
+    padding:rem
+}
+#navbar a{
+    color:white;
+    display: block;
+    font-size: 2.2rem;
+    padding: 2rem;
+    padding:15px ;
+    text-decoration:none ;
+    font-size: larger;
+}
+a:hover
+{
+color:white
+}
+#welcome-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    background:url("https://th.bing.com/th/id/OIP.031V1dSd67KV5-8gidK-mQHaEK?w=295&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7");
+    padding-bottom: 0%;
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+   
+}
+b {
+    font-weight: bold;
+    color:white
+}
+p{
+    font-weight: bold;
+    color:white;
+    text-align:center; 
+}
+
+.projects-section {
+    text-align: center;
+    padding: 10rem 2rem;
+    background: var(--main-blue);
+}
+#parent
+{
+    display:flex;
+    /* border:1px solid black; */
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.sparent{
+    
+    border:1px solid black;
+    background-color: rgb(66, 62, 99);
+    
+}
+#projects
+{
+    width: 25%;
+
+     margin: 20px;
+    
+     padding: 3%;
+    
+     background-color: rgb(43, 43, 44);
+    
+     text-align: center;
+}
+
+
+
+.project-tile{
+    text-decoration: underline;
+    align-items: center;
+    
+}
+#heading{
+    text-align: center;
+}
+h1, h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color:white;
+    padding:50px;
+}
+#projects h2{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: max-content;
+    margin: auto;
+    text-decoration: underline;
+    font-size: large;
+  }
+h2#work.project-tile{
+color:black;
+padding:25px;
+font-size: 5rem;
+  }
+  h2#work.project-tile:hover{
+    color:white
+  }
+
+
+    img{ width: 100%;
+        height:300px;
+        /* width:100%; */
+       /* background-size: cover; */
+    }
+
+#contact{
+    background: #0a0a0a;
+    border: 1px solid black;
+    height:80vh;
+}
+
+.contact-details {
+    font-size: 2.0rem;
+    text-shadow: 2px 2px 1px #1f1f1f;
+    transition: transform 0.3s ease-out;
+
+   justify-content: space-around;
+   color:white;
+    align-items: center;
+    
+}
+
+.contact-links {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        max-width: 980px;
+        margin-top: 4rem;
+        padding: 0%;
+    text-decoration: none;
+    padding-left: 24%;}
+    .contact-links >a{
+        padding:3%
+    }  
+footer > p {
+    margin: 2rem;
+    padding: 2rem;
+}
+
+footer {
+    font-weight: 300;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    background: black;
+    border-top: 4px solid #a2182b;}
+
+
+   
